@@ -1,0 +1,363 @@
+:root {
+  --primary-brown: #8b4513;
+  --light-brown: #d2b48c;
+  --dark-brown: #654321;
+  --cream: #f5f5dc;
+  --wood-color: #deb887;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--light-brown);
+  color: #333;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(135deg, var(--dark-brown), var(--primary-brown));
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--cream) !important;
+  transform: translateY(-2px);
+}
+
+.dropdown-menu {
+  background-color: var(--primary-brown);
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--dark-brown);
+  color: var(--cream);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--light-brown), var(--cream));
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.hero-content {
+  animation: fadeInLeft 1s ease-out;
+}
+
+.brand-icon {
+  color: var(--primary-brown);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.vision-mission h3 {
+  color: var(--dark-brown);
+  border-bottom: 2px solid var(--primary-brown);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.mission-list strong {
+  color: var(--primary-brown);
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInRight 1s ease-out;
+}
+
+.wooden-frame {
+  background: linear-gradient(145deg, var(--wood-color), var(--primary-brown));
+  border: 8px solid var(--dark-brown);
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3), 0 10px 25px rgba(0, 0, 0, 0.4);
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wooden-frame::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(45deg, var(--dark-brown), var(--primary-brown));
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.carved-figure {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.figure-body {
+  width: 60px;
+  height: 80px;
+  background: linear-gradient(145deg, var(--dark-brown), #3e2723);
+  border-radius: 30px 30px 20px 20px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.figure-head {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(145deg, var(--dark-brown), #3e2723);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.figure-arms {
+  width: 100px;
+  height: 15px;
+  background: linear-gradient(145deg, var(--dark-brown), #3e2723);
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.figure-legs {
+  width: 80px;
+  height: 15px;
+  background: linear-gradient(145deg, var(--dark-brown), #3e2723);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.brand-text {
+  text-align: center;
+  color: var(--dark-brown);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.brand-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.brand-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Products Section */
+.products-section {
+  background-color: var(--cream);
+}
+
+.product-card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-card .fa-chair {
+  color: var(--primary-brown);
+}
+
+.product-card .fa-couch {
+  color: #28a745;
+}
+
+.product-card .fa-bed {
+  color: #ffc107;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(135deg, var(--primary-brown), var(--dark-brown));
+  color: white;
+}
+
+.contact-item {
+  padding: 2rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-icon {
+  background: linear-gradient(145deg, #25d366, #128c7e);
+}
+
+.email-icon {
+  background: linear-gradient(145deg, #ea4335, #d33b2c);
+}
+
+.location-icon {
+  background: linear-gradient(145deg, #4285f4, #3367d6);
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--dark-brown);
+  color: white;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: var(--light-brown) !important;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .wooden-frame {
+    width: 250px;
+    height: 320px;
+    padding: 2rem 1.5rem;
+  }
+
+  .brand-text h2 {
+    font-size: 2rem;
+  }
+
+  .brand-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    margin: 0.2rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .wooden-frame {
+    width: 200px;
+    height: 280px;
+    padding: 1.5rem 1rem;
+  }
+
+  .carved-figure {
+    width: 100px;
+    height: 120px;
+  }
+
+  .figure-body {
+    width: 50px;
+    height: 70px;
+  }
+
+  .figure-head {
+    width: 35px;
+    height: 35px;
+  }
+
+  .brand-text h2 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+
+  .brand-text h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}

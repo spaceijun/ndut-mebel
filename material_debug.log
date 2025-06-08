@@ -1,0 +1,13 @@
+2025-06-08 12:27:10,477 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:27:10,626 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:27:10,645 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:27:26,475 - routes.material_routes - INFO - Accessing add material page
+2025-06-08 12:27:26,488 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:27:26] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:27:27,263 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:27:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:27:38,856 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:27:38] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:28:44,308 - routes.material_routes - INFO - Testing basic route functionality
+2025-06-08 12:28:44,310 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:28:44] "GET /material/test HTTP/1.1" 200 -
+2025-06-08 12:28:44,380 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:28:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:28:50,326 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:28:50] "GET /material/ping HTTP/1.1" 200 -
+2025-06-08 12:28:50,388 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:28:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:29:42,555 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading

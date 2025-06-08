@@ -1,0 +1,1244 @@
+2025-06-08 12:29:43,192 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:29:43,195 - __main__ - INFO - Testing database connection...
+2025-06-08 12:29:43,771 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:29:43,775 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:29:43,945 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:29:43,966 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:29:43,991 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:29:47,039 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 12:29:47,622 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:29:47,625 - __main__ - INFO - Testing database connection...
+2025-06-08 12:29:47,871 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:29:47,875 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:29:48,207 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:29:48,227 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:29:48,247 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:29:50,279 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 12:29:50,882 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:29:50,885 - __main__ - INFO - Testing database connection...
+2025-06-08 12:29:51,155 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:29:51,159 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:29:51,417 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:29:51,445 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:29:51,477 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:30:20,688 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\config\\database.py', reloading
+2025-06-08 12:30:21,212 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:30:21,214 - __main__ - INFO - Testing database connection...
+2025-06-08 12:30:21,429 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:30:21,433 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:30:21,569 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:30:21,587 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:30:21,613 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:30:23,639 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\config\\database.py', reloading
+2025-06-08 12:30:24,185 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:30:24,188 - __main__ - INFO - Testing database connection...
+2025-06-08 12:30:24,415 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:30:24,419 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:30:24,816 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:30:24,837 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:30:24,869 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:30:25,894 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\config\\database.py', reloading
+2025-06-08 12:30:26,428 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:30:26,430 - __main__ - INFO - Testing database connection...
+2025-06-08 12:30:26,676 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:30:26,680 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:30:26,903 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:30:26,921 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:30:26,945 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:31:32,959 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:31:32,960 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:31:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:31:34,856 - routes.material_routes - INFO - Accessing add material page
+2025-06-08 12:31:34,867 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:31:34] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:31:36,018 - routes.material_routes - INFO - Accessing add material page
+2025-06-08 12:31:36,021 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:31:36] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:31:37,448 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:31:37,452 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:31:50,275 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:31:50,279 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:31:50] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:32:04,507 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\config\\database.py', reloading
+2025-06-08 12:32:05,041 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:32:05,044 - __main__ - INFO - Testing database connection...
+2025-06-08 12:32:05,465 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:32:05,468 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:32:05,588 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:32:05,605 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:32:05,635 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:32:07,669 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:32:08,198 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:32:08,201 - __main__ - INFO - Testing database connection...
+2025-06-08 12:32:08,430 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:32:08,514 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:32:08,537 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:32:08,560 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:32:09,582 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:32:10,134 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:32:10,136 - __main__ - INFO - Testing database connection...
+2025-06-08 12:32:10,366 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:32:10,373 - __main__ - ERROR - Error registering blueprints: cannot import name 'material_bp' from 'routes.material_routes' (C:\laragon\www\joki-python-crud\routes\material_routes.py)
+2025-06-08 12:32:10,375 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 49, in create_app
+    from routes.material_routes import material_bp
+ImportError: cannot import name 'material_bp' from 'routes.material_routes' (C:\laragon\www\joki-python-crud\routes\material_routes.py)
+
+2025-06-08 12:32:10,381 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:32:10,398 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:32:10,416 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:32:11,438 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:32:11,963 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:32:11,966 - __main__ - INFO - Testing database connection...
+2025-06-08 12:32:12,144 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:32:12,172 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:32:12,186 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:32:12,202 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:32:19,246 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 12:33:19,165 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:33:19,168 - __main__ - INFO - Testing database connection...
+2025-06-08 12:33:19,409 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:33:19,471 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:33:19,496 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:33:19,515 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:33:21,544 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 12:33:22,091 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:33:22,093 - __main__ - INFO - Testing database connection...
+2025-06-08 12:33:22,312 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:33:22,374 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:33:22,389 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:33:22,405 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:33:44,361 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:33:44] "GET /health HTTP/1.1" 200 -
+2025-06-08 12:33:44,440 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:33:44,441 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:33:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:33:50,101 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:33:50] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:33:50,702 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:33:50,703 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:33:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:34:05,837 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:34:05,840 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:34:05] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:35:13,138 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:35:13,797 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:35:13,800 - __main__ - INFO - Testing database connection...
+2025-06-08 12:35:14,171 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:35:14,176 - __main__ - ERROR - Error registering blueprints: cannot import name 'material_bp' from 'routes.material_routes' (C:\laragon\www\joki-python-crud\routes\material_routes.py)
+2025-06-08 12:35:14,178 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 49, in create_app
+    from routes.material_routes import material_bp
+ImportError: cannot import name 'material_bp' from 'routes.material_routes' (C:\laragon\www\joki-python-crud\routes\material_routes.py)
+
+2025-06-08 12:35:14,186 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:35:14,209 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:35:14,230 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:35:15,255 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:35:15,939 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:35:15,942 - __main__ - INFO - Testing database connection...
+2025-06-08 12:35:16,160 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:35:16,170 - routes.material_routes - INFO - Testing imports...
+2025-06-08 12:35:16,219 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:35:16,237 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:35:16,258 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:35:21,400 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:35:21,403 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:35:21] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:35:27,350 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:35:27,973 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:35:27,976 - __main__ - INFO - Testing database connection...
+2025-06-08 12:35:28,244 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:35:28,254 - __main__ - ERROR - Error registering blueprints: No module named 'validators.material_validator'
+2025-06-08 12:35:28,259 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 49, in create_app
+    from routes.material_routes import material_bp
+  File "C:\laragon\www\joki-python-crud\routes\material_routes.py", line 2, in <module>
+    from validators.material_validator import MaterialValidator
+ModuleNotFoundError: No module named 'validators.material_validator'
+
+2025-06-08 12:35:28,263 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:35:28,285 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:35:28,314 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:35:32,071 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:35:32,076 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:35:32] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:36:57,930 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\routes\\material_routes.py', reloading
+2025-06-08 12:36:58,486 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:36:58,488 - __main__ - INFO - Testing database connection...
+2025-06-08 12:36:59,139 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:36:59,147 - __main__ - ERROR - Error registering blueprints: No module named 'validators.material_validator'
+2025-06-08 12:36:59,149 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 49, in create_app
+    from routes.material_routes import material_bp
+  File "C:\laragon\www\joki-python-crud\routes\material_routes.py", line 2, in <module>
+    from validators.material_validator import MaterialValidator
+ModuleNotFoundError: No module named 'validators.material_validator'
+
+2025-06-08 12:36:59,158 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:36:59,184 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:36:59,216 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:37:04,699 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:37:04,701 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:37:04] "[33mGET /material/test HTTP/1.1[0m" 404 -
+2025-06-08 12:37:04,768 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:37:04,770 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:37:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:38:36,411 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:38:36,415 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:38:36] "[33mGET /material/test HTTP/1.1[0m" 404 -
+2025-06-08 12:38:36,470 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:38:36,472 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:38:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:41:09,581 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 12:41:10,170 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:41:10,171 - __main__ - INFO - Testing database connection...
+2025-06-08 12:41:10,540 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:41:10,544 - __main__ - ERROR - Failed to import material blueprint: No module named 'validators.material_validator'
+2025-06-08 12:41:10,544 - __main__ - ERROR - Expected file: routes/material.py or routes/material_routes.py
+2025-06-08 12:41:10,562 - __main__ - ERROR - Failed to start application: 'Flask' object has no attribute 'before_first_request'
+2025-06-08 12:41:10,567 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 167, in <module>
+    app = create_app()
+  File "C:\laragon\www\joki-python-crud\app.py", line 84, in create_app
+    @app.before_first_request
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Flask' object has no attribute 'before_first_request'. Did you mean: 'before_request'?
+
+2025-06-08 12:43:56,773 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:43:56,776 - __main__ - INFO - Testing database connection...
+2025-06-08 12:43:57,184 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:43:57,197 - __main__ - ERROR - Failed to import material blueprint: No module named 'validators.material_validator'
+2025-06-08 12:43:57,199 - __main__ - ERROR - Expected file: routes/material.py or routes/material_routes.py
+2025-06-08 12:43:57,236 - __main__ - ERROR - Failed to start application: 'Flask' object has no attribute 'before_first_request'
+2025-06-08 12:43:57,244 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\laragon\www\joki-python-crud\app.py", line 167, in <module>
+    app = create_app()
+  File "C:\laragon\www\joki-python-crud\app.py", line 84, in create_app
+    @app.before_first_request
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Flask' object has no attribute 'before_first_request'. Did you mean: 'before_request'?
+
+2025-06-08 12:48:33,478 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:48:33,480 - __main__ - INFO - Testing database connection...
+2025-06-08 12:48:33,810 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 12:48:33,812 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:48:33,825 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 12:48:33,830 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 12:48:33,833 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 12:48:33,836 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 12:48:33,838 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 12:48:33,839 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 12:48:33,840 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 12:48:33,842 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 12:48:33,843 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 12:48:33,844 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 12:48:33,845 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 12:48:33,845 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 12:48:33,846 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 12:48:33,847 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 12:48:33,848 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 12:48:33,849 - __main__ - INFO - GET      /                              -> index
+2025-06-08 12:48:33,850 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 12:48:33,852 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 12:48:33,853 - __main__ - INFO - =========================
+2025-06-08 12:48:33,855 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:48:33,856 - __main__ - INFO - Flask app name: app
+2025-06-08 12:48:33,857 - __main__ - INFO - Flask debug mode: True
+2025-06-08 12:48:33,858 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 12:48:33,909 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-08 12:48:33,914 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 12:48:33,921 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 12:48:34,322 - __main__ - INFO - Starting Flask application...
+2025-06-08 12:48:34,323 - __main__ - INFO - Testing database connection...
+2025-06-08 12:48:34,519 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 12:48:34,520 - __main__ - INFO - Registering blueprints...
+2025-06-08 12:48:34,528 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 12:48:34,532 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 12:48:34,537 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 12:48:34,540 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 12:48:34,541 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 12:48:34,543 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 12:48:34,544 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 12:48:34,545 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 12:48:34,547 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 12:48:34,549 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 12:48:34,551 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 12:48:34,553 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 12:48:34,554 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 12:48:34,556 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 12:48:34,557 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 12:48:34,559 - __main__ - INFO - GET      /                              -> index
+2025-06-08 12:48:34,559 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 12:48:34,560 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 12:48:34,561 - __main__ - INFO - =========================
+2025-06-08 12:48:34,563 - __main__ - INFO - Starting Flask development server...
+2025-06-08 12:48:34,564 - __main__ - INFO - Flask app name: app
+2025-06-08 12:48:34,566 - __main__ - INFO - Flask debug mode: True
+2025-06-08 12:48:34,568 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 12:48:34,593 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 12:48:34,615 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 12:48:49,928 - __main__ - INFO - Accessing index page
+2025-06-08 12:48:49,935 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:49] "GET / HTTP/1.1" 200 -
+2025-06-08 12:48:50,007 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:48:50,009 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:48:50,010 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:50] "[33mGET /assets/style.css HTTP/1.1[0m" 404 -
+2025-06-08 12:48:50,012 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:50] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 12:48:50,048 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:48:50,049 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:50] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 12:48:53,876 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:53] "GET /material/ HTTP/1.1" 200 -
+2025-06-08 12:48:54,050 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:54] "GET /api/materials HTTP/1.1" 200 -
+2025-06-08 12:48:55,395 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:48:55,398 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:55] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 12:48:55,455 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:48:55,457 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:48:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:49:04,010 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:49:04] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:49:17,324 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:49:17,326 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:49:17] "[33mPOST /submit HTTP/1.1[0m" 404 -
+2025-06-08 12:52:08,938 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:08,940 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:08] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 12:52:09,035 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:09,036 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:52:23,235 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:23] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:52:23,883 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:23,885 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:52:34,664 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:34,666 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:34] "[33mPOST /material/material/submit HTTP/1.1[0m" 404 -
+2025-06-08 12:52:52,175 - __main__ - INFO - Accessing index page
+2025-06-08 12:52:52,177 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:52] "GET / HTTP/1.1" 200 -
+2025-06-08 12:52:52,219 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:52,220 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:52,221 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:52] "[33mGET /assets/style.css HTTP/1.1[0m" 404 -
+2025-06-08 12:52:52,221 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:52] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 12:52:52,237 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:52,239 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:52] "[33mGET /assets/style.css HTTP/1.1[0m" 404 -
+2025-06-08 12:52:52,813 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:52:52,815 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:52:52] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 12:53:10,529 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:53:10,530 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:53:10] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 12:53:10,597 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:53:10,599 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:53:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:56:28,524 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:56:28,526 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:28] "[33mPOST /material/material/submit HTTP/1.1[0m" 404 -
+2025-06-08 12:56:29,825 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:29] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 12:56:30,413 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:56:30,415 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 12:56:42,231 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:42] "POST /material/submit HTTP/1.1" 200 -
+2025-06-08 12:56:58,415 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:58] "GET /material/ HTTP/1.1" 200 -
+2025-06-08 12:56:58,550 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:56:58] "GET /api/materials HTTP/1.1" 200 -
+2025-06-08 12:57:06,562 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:57:06,564 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:57:06] "[33mGET /edit/1 HTTP/1.1[0m" 404 -
+2025-06-08 12:57:06,631 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 12:57:06,633 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 12:57:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:00:46,794 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:00:46] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:00:54,028 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:00:54] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:01:13,886 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:01:13] "[31m[1mPOST /katalog/submit HTTP/1.1[0m" 400 -
+2025-06-08 13:01:30,322 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:01:30] "[31m[1mPOST /katalog/submit HTTP/1.1[0m" 400 -
+2025-06-08 13:01:31,686 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:01:31] "[31m[1mPOST /katalog/submit HTTP/1.1[0m" 400 -
+2025-06-08 13:01:32,389 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:01:32] "[31m[1mPOST /katalog/submit HTTP/1.1[0m" 400 -
+2025-06-08 13:02:47,960 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:02:47] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:02:49,711 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:02:49,713 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:02:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:03:03,044 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:03:03] "POST /katalog/submit HTTP/1.1" 200 -
+2025-06-08 13:03:28,126 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:03:28] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:03:28,823 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:03:28,825 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:03:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:04:10,758 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:04:10] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:05:33,390 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:05:33,392 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:05:33] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 13:05:33,470 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:05:33,472 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:17:37,768 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:37] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:17:38,367 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:38] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:17:38,472 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:17:38,474 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:17:41,757 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:41] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:17:43,074 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:43] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:17:43,181 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:17:43,183 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:17:46,325 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:17:46,327 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:46] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 13:17:46,379 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:17:46,380 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:17:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:18:20,326 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:18:20] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:18:50,330 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:18:50] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:19:20,341 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:19:20] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:19:50,350 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:19:50] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:20:20,355 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:20:20] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:20:50,362 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:20:50] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:21:20,362 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:21:20] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:21:50,379 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:21:50] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:22:04,054 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:04] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:22:04,809 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:04] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:22:04,927 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:22:04,929 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:22:07,686 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:07] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:22:14,876 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:22:14,878 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:14] "[33mGET /add HTTP/1.1[0m" 404 -
+2025-06-08 13:22:14,946 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:22:14,951 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:22:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:04,283 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:04] "GET /api/materials HTTP/1.1" 200 -
+2025-06-08 13:23:04,342 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:04,344 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:08,673 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:08] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:23:08,739 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:08,741 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:48,525 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:48,526 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:49,372 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:49,373 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:51,596 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:51] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:23:51,973 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:51] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:23:52,076 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:52,079 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:23:53,645 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:53] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:23:54,215 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:54] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:23:54,327 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:23:54,328 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:23:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:24:07,538 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:24:07] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:24:07,616 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:24:07,618 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:24:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:27:32,696 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:32] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:27:32,982 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:32] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:27:33,082 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:27:33,084 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:27:36,663 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:27:36,665 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:36] "[33mGET /api/katalog/1 HTTP/1.1[0m" 404 -
+2025-06-08 13:27:39,391 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:27:39,393 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:39] "[33mGET /api/katalog/1 HTTP/1.1[0m" 404 -
+2025-06-08 13:27:53,283 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:27:53,289 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:53] "[33mGET /katalog/edit/1 HTTP/1.1[0m" 404 -
+2025-06-08 13:27:53,350 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:27:53,352 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:27:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:28:11,249 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:11] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:28:41,258 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:41] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:28:50,085 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:50] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:28:50,375 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:50] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:28:50,492 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:28:50,494 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:28:52,360 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:28:52] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:29:25,842 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:29:25] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:29:55,841 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:29:55] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:30:25,864 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:30:25] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:30:56,308 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:30:56] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:31:15,490 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:15] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:31:15,862 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:15] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:31:15,967 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:31:15,969 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:31:20,335 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:20] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:31:36,973 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:36] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:31:37,632 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:31:37,634 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:32:22,942 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:22] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:32:23,451 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:32:23,453 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:32:39,107 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:39] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:32:40,119 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:32:40,121 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:32:49,393 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:49] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:32:49,939 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:32:49,941 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:32:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:33:23,909 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:33:23] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:33:24,271 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:33:24,273 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:33:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:34:00,682 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:00] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:34:00,987 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:34:00,989 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:34:17,635 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:17] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:34:18,248 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:34:18,250 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:34:25,992 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:25] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:34:26,087 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:26] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:34:29,457 - __main__ - INFO - Accessing index page
+2025-06-08 13:34:29,458 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:29] "GET / HTTP/1.1" 200 -
+2025-06-08 13:34:29,494 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:34:29,496 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:34:29,497 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:29] "[33mGET /assets/style.css HTTP/1.1[0m" 404 -
+2025-06-08 13:34:29,497 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:29] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 13:34:29,525 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:34:29,526 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:34:29] "[33mGET /assets/script.js HTTP/1.1[0m" 404 -
+2025-06-08 13:35:18,788 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:35:18] "GET /katalog HTTP/1.1" 200 -
+2025-06-08 13:35:18,920 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:35:18] "GET /api/katalogs HTTP/1.1" 200 -
+2025-06-08 13:35:20,869 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:35:20] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:40:00,932 - __main__ - INFO - Accessing index page
+2025-06-08 13:40:00,940 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:40:00] "GET / HTTP/1.1" 200 -
+2025-06-08 13:42:31,523 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:42:31,620 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:42:31,946 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:42:31,947 - __main__ - INFO - Testing database connection...
+2025-06-08 13:42:32,225 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:42:32,226 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:42:32,232 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:42:32,236 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:42:32,241 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:42:32,243 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:42:32,244 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:42:32,245 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:42:32,246 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:42:32,246 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:42:32,246 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:42:32,247 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:42:32,247 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:42:32,248 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:42:32,248 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:42:32,249 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:42:32,249 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:42:32,249 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:42:32,250 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:42:32,250 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:42:32,250 - __main__ - INFO - =========================
+2025-06-08 13:42:32,251 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:42:32,251 - __main__ - INFO - Flask app name: app
+2025-06-08 13:42:32,251 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:42:32,252 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:42:32,275 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:42:32,294 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:42:33,314 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:42:33,425 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:42:33,865 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:42:33,866 - __main__ - INFO - Testing database connection...
+2025-06-08 13:42:34,052 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:42:34,054 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:42:34,062 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:42:34,067 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:42:34,071 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:42:34,075 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:42:34,075 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:42:34,076 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:42:34,076 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:42:34,077 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:42:34,078 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:42:34,079 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:42:34,079 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:42:34,079 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:42:34,080 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:42:34,080 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:42:34,081 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:42:34,081 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:42:34,081 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:42:34,082 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:42:34,082 - __main__ - INFO - =========================
+2025-06-08 13:42:34,082 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:42:34,083 - __main__ - INFO - Flask app name: app
+2025-06-08 13:42:34,083 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:42:34,084 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:42:34,106 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:42:34,130 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:42:49,121 - __main__ - INFO - Accessing index page
+2025-06-08 13:42:49,135 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:42:49] "GET / HTTP/1.1" 200 -
+2025-06-08 13:42:49,715 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:42:49,717 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:42:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:45:17,000 - __main__ - INFO - Accessing index page
+2025-06-08 13:45:17,008 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:45:17] "GET / HTTP/1.1" 200 -
+2025-06-08 13:45:17,613 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:45:17,615 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:45:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:45:54,254 - __main__ - INFO - Accessing index page
+2025-06-08 13:45:54,264 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:45:54] "GET / HTTP/1.1" 200 -
+2025-06-08 13:45:54,770 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:45:54,772 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:45:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:46:23,470 - __main__ - INFO - Accessing index page
+2025-06-08 13:46:23,479 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:46:23] "GET / HTTP/1.1" 200 -
+2025-06-08 13:46:23,963 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:46:23,965 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:46:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:47:06,659 - __main__ - INFO - Accessing index page
+2025-06-08 13:47:06,667 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:06] "GET / HTTP/1.1" 200 -
+2025-06-08 13:47:06,728 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:47:06,730 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:06] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:47:07,101 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:47:07,105 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:47:29,683 - __main__ - INFO - Accessing index page
+2025-06-08 13:47:29,691 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:29] "GET / HTTP/1.1" 200 -
+2025-06-08 13:47:29,756 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:47:29,758 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:29] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:47:30,192 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:47:30,194 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:47:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:49:09,204 - __main__ - INFO - Accessing index page
+2025-06-08 13:49:09,215 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:49:09] "GET / HTTP/1.1" 200 -
+2025-06-08 13:49:09,277 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:49:09,281 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:49:09] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:49:09,650 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:49:09,653 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:49:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:50:56,227 - __main__ - INFO - Accessing index page
+2025-06-08 13:50:56,234 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:50:56] "GET / HTTP/1.1" 200 -
+2025-06-08 13:50:56,283 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:50:56,286 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:50:56] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:50:56,688 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:50:56,689 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:51:32,129 - __main__ - INFO - Accessing index page
+2025-06-08 13:51:32,136 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:51:32] "GET / HTTP/1.1" 200 -
+2025-06-08 13:51:32,196 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:51:32,200 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:51:32] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:51:32,590 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:51:32,591 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:51:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:52:38,250 - __main__ - INFO - Accessing index page
+2025-06-08 13:52:38,257 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:52:38] "GET / HTTP/1.1" 200 -
+2025-06-08 13:52:38,313 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:52:38,315 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:52:38] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:52:38,794 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:52:38,798 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:53:43,620 - __main__ - INFO - Accessing index page
+2025-06-08 13:53:43,627 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:53:43] "GET / HTTP/1.1" 200 -
+2025-06-08 13:53:43,926 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:53:43,928 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:53:43] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:53:44,203 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:53:44,205 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:53:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:54:26,139 - __main__ - INFO - Accessing index page
+2025-06-08 13:54:26,148 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:26] "GET / HTTP/1.1" 200 -
+2025-06-08 13:54:26,195 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:54:26,198 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:26] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:54:26,681 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:54:26,684 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:54:54,627 - __main__ - INFO - Accessing index page
+2025-06-08 13:54:54,636 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:54] "GET / HTTP/1.1" 200 -
+2025-06-08 13:54:54,692 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:54:54,695 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:54] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:54:55,155 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:54:55,157 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:54:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:55:18,819 - __main__ - INFO - Accessing index page
+2025-06-08 13:55:18,826 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:55:18] "GET / HTTP/1.1" 200 -
+2025-06-08 13:55:18,866 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:55:18,868 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:55:18] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:55:19,006 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:55:19,007 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:55:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:56:41,776 - __main__ - INFO - Accessing index page
+2025-06-08 13:56:41,785 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:56:41] "GET / HTTP/1.1" 200 -
+2025-06-08 13:56:41,849 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:56:41,851 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:56:41] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:56:42,217 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:56:42,218 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:56:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:56:57,320 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:56:57,410 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:56:57,749 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:56:57,750 - __main__ - INFO - Testing database connection...
+2025-06-08 13:56:58,030 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:56:58,031 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:56:58,034 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:56:58,036 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:56:58,038 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:56:58,039 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:56:58,041 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:56:58,041 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:56:58,042 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:56:58,042 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:56:58,042 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:56:58,043 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:56:58,043 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:56:58,043 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:56:58,043 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:56:58,043 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:56:58,044 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:56:58,044 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:56:58,044 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:56:58,044 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:56:58,044 - __main__ - INFO - =========================
+2025-06-08 13:56:58,045 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:56:58,045 - __main__ - INFO - Flask app name: app
+2025-06-08 13:56:58,045 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:56:58,045 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:56:58,057 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:56:58,070 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:04,608 - __main__ - INFO - Accessing index page
+2025-06-08 13:58:04,623 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:04] "GET / HTTP/1.1" 200 -
+2025-06-08 13:58:04,666 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:58:04,668 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:04] "[33mGET /assets/image/hero.png HTTP/1.1[0m" 404 -
+2025-06-08 13:58:04,864 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:58:04,865 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:58:05,807 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:05] "GET /material/add HTTP/1.1" 200 -
+2025-06-08 13:58:08,087 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:08] "GET /katalog/add HTTP/1.1" 200 -
+2025-06-08 13:58:10,100 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:58:10,101 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:10] "[33mGET /kursi HTTP/1.1[0m" 404 -
+2025-06-08 13:58:10,172 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:58:10,174 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:58:29,682 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:29,773 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:30,217 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:30,220 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:30,417 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:30,418 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:30,424 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:30,428 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:30,431 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:30,433 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:30,433 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:30,433 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:30,434 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:30,434 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:30,434 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:30,435 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:30,435 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:30,435 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:30,436 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:30,436 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:30,436 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:30,437 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:30,437 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:30,438 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:30,438 - __main__ - INFO - =========================
+2025-06-08 13:58:30,439 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:30,439 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:30,439 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:30,440 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:30,454 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:30,472 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:31,496 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:31,574 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:31,898 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:31,899 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:32,040 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:32,041 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:32,045 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:32,048 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:32,050 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:32,051 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:32,052 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:32,052 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:32,052 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:32,053 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:32,053 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:32,053 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:32,054 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:32,054 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:32,054 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:32,054 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:32,055 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:32,055 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:32,055 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:32,055 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:32,056 - __main__ - INFO - =========================
+2025-06-08 13:58:32,056 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:32,056 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:32,056 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:32,057 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:32,067 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:32,078 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:34,097 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:34,178 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:34,515 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:34,516 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:34,659 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:34,660 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:34,663 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:34,665 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:34,667 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:34,668 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:34,668 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:34,669 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:34,669 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:34,669 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:34,669 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:34,670 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:34,670 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:34,671 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:34,671 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:34,671 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:34,672 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:34,672 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:34,672 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:34,673 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:34,673 - __main__ - INFO - =========================
+2025-06-08 13:58:34,673 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:34,673 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:34,674 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:34,674 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:34,684 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:34,696 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:35,711 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:35,798 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:36,168 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:36,169 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:36,349 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:36,350 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:36,353 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:36,356 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:36,358 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:36,360 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:36,360 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:36,360 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:36,361 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:36,361 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:36,361 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:36,362 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:36,362 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:36,362 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:36,363 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:36,363 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:36,364 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:36,364 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:36,365 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:36,365 - __main__ - INFO - GET      /kursi                         -> health_check
+2025-06-08 13:58:36,366 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:36,366 - __main__ - INFO - =========================
+2025-06-08 13:58:36,367 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:36,368 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:36,369 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:36,369 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:36,381 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:36,395 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:37,410 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:37,502 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:37,882 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:37,883 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:38,071 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:38,073 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:38,078 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:38,083 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:38,086 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:38,089 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:38,090 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:38,090 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:38,090 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:38,091 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:38,091 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:38,091 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:38,092 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:38,093 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:38,093 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:38,093 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:38,094 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:38,094 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:38,094 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 13:58:38,095 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:38,095 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:38,096 - __main__ - INFO - =========================
+2025-06-08 13:58:38,096 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:38,097 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:38,097 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:38,097 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:38,116 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:38,139 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:41,171 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:58:41,254 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:58:41,658 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:58:41,659 - __main__ - INFO - Testing database connection...
+2025-06-08 13:58:41,842 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:58:41,843 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:58:41,849 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:58:41,852 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:58:41,856 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:58:41,858 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:58:41,859 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:58:41,859 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:58:41,860 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:58:41,860 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:58:41,860 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:58:41,861 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:58:41,861 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:58:41,861 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:58:41,861 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:58:41,862 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:58:41,862 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:58:41,862 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:58:41,863 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 13:58:41,863 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:58:41,863 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:58:41,863 - __main__ - INFO - =========================
+2025-06-08 13:58:41,864 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:58:41,865 - __main__ - INFO - Flask app name: app
+2025-06-08 13:58:41,865 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:58:41,865 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:58:41,881 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:58:41,905 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:58:43,314 - __main__ - INFO - Accessing kursi page
+2025-06-08 13:58:43,316 - __main__ - ERROR - Error loading kursi page: kursi.html
+2025-06-08 13:58:43,317 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:43] "[35m[1mGET /kursi HTTP/1.1[0m" 500 -
+2025-06-08 13:58:43,382 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:58:43,383 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:58:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:59:00,022 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:59:00,152 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:59:00,495 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:59:00,496 - __main__ - INFO - Testing database connection...
+2025-06-08 13:59:00,649 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:59:00,650 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:59:00,657 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:59:00,661 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:59:00,664 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:59:00,666 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:59:00,666 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:59:00,667 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:59:00,667 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:59:00,667 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:59:00,668 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:59:00,668 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:59:00,668 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:59:00,669 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:59:00,669 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:59:00,669 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:59:00,670 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:59:00,670 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:59:00,671 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 13:59:00,671 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:59:00,671 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:59:00,672 - __main__ - INFO - =========================
+2025-06-08 13:59:00,672 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:59:00,673 - __main__ - INFO - Flask app name: app
+2025-06-08 13:59:00,673 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:59:00,673 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:59:00,684 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:59:00,701 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:59:02,049 - __main__ - INFO - Accessing kursi page
+2025-06-08 13:59:02,057 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "GET /kursi HTTP/1.1" 200 -
+2025-06-08 13:59:02,116 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,118 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,120 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,123 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,124 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi-putih.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,126 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,129 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,132 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi-putih2.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,135 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,139 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi-putih-lagi.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,141 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi-abu.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,146 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /assets/image/kursi-silver.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:02,347 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:02,349 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:59:29,939 - __main__ - INFO - Accessing kursi page
+2025-06-08 13:59:29,946 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:29] "GET /kursi HTTP/1.1" 200 -
+2025-06-08 13:59:29,998 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,003 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,004 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,006 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,007 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi-putih.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,009 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,011 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,013 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi-putih2.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,017 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi-putih-lagi.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,018 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi-abu.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,143 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,145 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /assets/image/kursi-silver.png HTTP/1.1[0m" 404 -
+2025-06-08 13:59:30,168 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:30,170 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:59:34,947 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:34,948 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:34] "[33mGET /deskripsi HTTP/1.1[0m" 404 -
+2025-06-08 13:59:35,015 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 13:59:35,019 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 13:59:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 13:59:47,041 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:59:47,136 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:59:47,532 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:59:47,537 - __main__ - INFO - Testing database connection...
+2025-06-08 13:59:47,756 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:59:47,757 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:59:47,762 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:59:47,766 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:59:47,770 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:59:47,772 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:59:47,773 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:59:47,774 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:59:47,774 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:59:47,775 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:59:47,775 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:59:47,775 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:59:47,776 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:59:47,776 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:59:47,776 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:59:47,777 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:59:47,777 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:59:47,777 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:59:47,778 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 13:59:47,778 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:59:47,779 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:59:47,780 - __main__ - INFO - =========================
+2025-06-08 13:59:47,782 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:59:47,783 - __main__ - INFO - Flask app name: app
+2025-06-08 13:59:47,783 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:59:47,784 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:59:47,799 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:59:47,814 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:59:50,844 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:59:50,914 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 13:59:51,231 - __main__ - INFO - Starting Flask application...
+2025-06-08 13:59:51,232 - __main__ - INFO - Testing database connection...
+2025-06-08 13:59:51,381 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 13:59:51,382 - __main__ - INFO - Registering blueprints...
+2025-06-08 13:59:51,390 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 13:59:51,393 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 13:59:51,395 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 13:59:51,397 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 13:59:51,397 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 13:59:51,397 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 13:59:51,398 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 13:59:51,398 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 13:59:51,398 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 13:59:51,398 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 13:59:51,399 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 13:59:51,399 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 13:59:51,399 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 13:59:51,399 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 13:59:51,400 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 13:59:51,400 - __main__ - INFO - GET      /                              -> index
+2025-06-08 13:59:51,401 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 13:59:51,401 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 13:59:51,402 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 13:59:51,402 - __main__ - INFO - =========================
+2025-06-08 13:59:51,403 - __main__ - INFO - Starting Flask development server...
+2025-06-08 13:59:51,404 - __main__ - INFO - Flask app name: app
+2025-06-08 13:59:51,405 - __main__ - INFO - Flask debug mode: True
+2025-06-08 13:59:51,405 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 13:59:51,417 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 13:59:51,430 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 13:59:53,449 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 13:59:53,528 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:14,225 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:14,227 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:14,414 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:14,415 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:14,421 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:14,425 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:14,428 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:14,430 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:14,431 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:14,431 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:14,432 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:14,432 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:14,433 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:14,433 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:14,433 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:14,434 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:14,434 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:14,434 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:14,434 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:14,435 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:14,435 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:14,436 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:14,436 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:14,436 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:14,437 - __main__ - INFO - =========================
+2025-06-08 14:00:14,437 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:14,438 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:14,438 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:14,438 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:14,462 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-08 14:00:14,464 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 14:00:14,466 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:14,852 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:14,853 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:15,011 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:15,011 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:15,015 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:15,017 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:15,019 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:15,021 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:15,021 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:15,021 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:15,021 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:15,022 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:15,022 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:15,022 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:15,022 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:15,022 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:15,022 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:15,023 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:15,024 - __main__ - INFO - =========================
+2025-06-08 14:00:15,024 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:15,024 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:15,024 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:15,024 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:15,036 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:15,048 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:16,694 - __main__ - INFO - Accessing deskripsi page
+2025-06-08 14:00:16,700 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:00:16] "GET /deskripsi HTTP/1.1" 200 -
+2025-06-08 14:00:16,913 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 14:00:16,915 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:00:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 14:00:25,129 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:25,274 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:25,631 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:25,632 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:25,805 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:25,806 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:25,811 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:25,815 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:25,817 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:25,820 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:25,821 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:25,821 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:25,822 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:25,822 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:25,823 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:25,823 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:25,823 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:25,823 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:25,824 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:25,824 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:25,824 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:25,825 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:25,825 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:25,825 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:25,826 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:25,827 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:25,827 - __main__ - INFO - =========================
+2025-06-08 14:00:25,828 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:25,828 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:25,829 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:25,829 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:25,849 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:25,868 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:26,895 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:26,966 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:27,269 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:27,270 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:27,390 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:27,392 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:27,397 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:27,403 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:27,406 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:27,409 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:27,410 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:27,410 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:27,411 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:27,411 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:27,412 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:27,412 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:27,412 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:27,413 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:27,413 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:27,414 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:27,414 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:27,414 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:27,415 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:27,415 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:27,416 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:27,416 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:27,417 - __main__ - INFO - =========================
+2025-06-08 14:00:27,417 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:27,418 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:27,418 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:27,420 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:27,437 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:27,448 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:32,488 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:32,576 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:32,986 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:32,987 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:33,172 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:33,173 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:33,179 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:33,183 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:33,186 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:33,189 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:33,190 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:33,190 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:33,190 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:33,191 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:33,191 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:33,191 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:33,192 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:33,192 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:33,192 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:33,192 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:33,193 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:33,193 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:33,193 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:33,194 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:33,194 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:33,194 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:33,194 - __main__ - INFO - =========================
+2025-06-08 14:00:33,195 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:33,195 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:33,195 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:33,196 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:33,210 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:33,221 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:34,236 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:34,324 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:34,619 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:34,621 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:34,775 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:34,776 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:34,780 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:34,783 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:34,786 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:34,789 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:34,789 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:34,790 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:34,790 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:34,790 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:34,791 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:34,791 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:34,791 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:34,791 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:34,792 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:34,792 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:34,792 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:34,793 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:34,793 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:34,794 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:34,794 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:34,794 - __main__ - INFO - GET      /deskripsi2                    -> health_check
+2025-06-08 14:00:34,795 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:34,795 - __main__ - INFO - =========================
+2025-06-08 14:00:34,795 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:34,796 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:34,796 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:34,797 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:34,810 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:34,823 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:36,843 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:36,924 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:37,340 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:37,342 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:37,522 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:37,523 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:37,531 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:37,536 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:37,544 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:37,547 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:37,548 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:37,549 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:37,550 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:37,550 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:37,551 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:37,551 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:37,551 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:37,552 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:37,552 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:37,553 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:37,554 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:37,554 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:37,554 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:37,555 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:37,555 - __main__ - INFO - GET      /deskripsi2                    -> deskripsi2
+2025-06-08 14:00:37,556 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:37,556 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:37,556 - __main__ - INFO - =========================
+2025-06-08 14:00:37,557 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:37,557 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:37,557 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:37,558 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:37,569 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:37,584 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:00:39,603 - werkzeug - INFO -  * Detected change in 'C:\\laragon\\www\\joki-python-crud\\app.py', reloading
+2025-06-08 14:00:39,711 - werkzeug - INFO -  * Restarting with stat
+2025-06-08 14:00:40,056 - __main__ - INFO - Starting Flask application...
+2025-06-08 14:00:40,058 - __main__ - INFO - Testing database connection...
+2025-06-08 14:00:40,265 - __main__ - INFO - [OK] Database connection successful
+2025-06-08 14:00:40,266 - __main__ - INFO - Registering blueprints...
+2025-06-08 14:00:40,272 - __main__ - INFO - [OK] Material blueprint registered
+2025-06-08 14:00:40,276 - __main__ - INFO - [OK] Katalog blueprint registered
+2025-06-08 14:00:40,279 - __main__ - INFO - [OK] API blueprint registered
+2025-06-08 14:00:40,283 - __main__ - INFO - === REGISTERED ROUTES ===
+2025-06-08 14:00:40,284 - __main__ - INFO - GET      /static/<path:filename>        -> static
+2025-06-08 14:00:40,284 - __main__ - INFO - GET      /material/                     -> material.material_index
+2025-06-08 14:00:40,284 - __main__ - INFO - GET      /material/add                  -> material.add_material
+2025-06-08 14:00:40,285 - __main__ - INFO - POST     /material/submit               -> material.submit_material
+2025-06-08 14:00:40,285 - __main__ - INFO - GET      /material/test                 -> material.test_route
+2025-06-08 14:00:40,285 - __main__ - INFO - GET      /katalog                       -> katalog.katalog_index
+2025-06-08 14:00:40,287 - __main__ - INFO - GET      /katalog/add                   -> katalog.add_katalog
+2025-06-08 14:00:40,287 - __main__ - INFO - POST     /katalog/submit                -> katalog.submit_katalog
+2025-06-08 14:00:40,288 - __main__ - INFO - GET      /api/materials                 -> api.api_materials
+2025-06-08 14:00:40,289 - __main__ - INFO - GET      /api/material/<int:material_id> -> api.api_material_detail
+2025-06-08 14:00:40,290 - __main__ - INFO - GET      /api/katalogs                  -> api.api_katalogs
+2025-06-08 14:00:40,291 - __main__ - INFO - GET      /                              -> index
+2025-06-08 14:00:40,292 - __main__ - INFO - GET      /kursi                         -> kursi
+2025-06-08 14:00:40,293 - __main__ - INFO - GET      /deskripsi                     -> deskripsi
+2025-06-08 14:00:40,293 - __main__ - INFO - GET      /deskripsi2                    -> deskripsi2
+2025-06-08 14:00:40,294 - __main__ - INFO - GET      /health                        -> health_check
+2025-06-08 14:00:40,294 - __main__ - INFO - GET      /debug/routes                  -> debug_routes
+2025-06-08 14:00:40,295 - __main__ - INFO - =========================
+2025-06-08 14:00:40,295 - __main__ - INFO - Starting Flask development server...
+2025-06-08 14:00:40,295 - __main__ - INFO - Flask app name: app
+2025-06-08 14:00:40,296 - __main__ - INFO - Flask debug mode: True
+2025-06-08 14:00:40,296 - __main__ - INFO - Flask secret key set: Yes
+2025-06-08 14:00:40,311 - werkzeug - WARNING -  * Debugger is active!
+2025-06-08 14:00:40,324 - werkzeug - INFO -  * Debugger PIN: 712-765-737
+2025-06-08 14:01:10,705 - __main__ - INFO - Accessing deskripsi page
+2025-06-08 14:01:10,717 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:01:10] "GET /deskripsi HTTP/1.1" 200 -
+2025-06-08 14:01:10,948 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 14:01:10,950 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:01:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-08 14:01:12,901 - __main__ - INFO - Accessing deskripsi2 page
+2025-06-08 14:01:12,908 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:01:12] "GET /deskripsi2 HTTP/1.1" 200 -
+2025-06-08 14:01:28,531 - __main__ - INFO - Accessing deskripsi page
+2025-06-08 14:01:28,535 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:01:28] "GET /deskripsi HTTP/1.1" 200 -
+2025-06-08 14:01:28,749 - __main__ - WARNING - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-06-08 14:01:28,751 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 14:01:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

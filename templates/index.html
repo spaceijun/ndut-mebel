@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ndut Mebel - Furniture Berkualitas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #a2845e;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header-menu {
+        background-color: #a2845e;
+        padding: 8px 0;
+        font-size: 12px;
+        color: white;
+      }
+
+      .header-menu .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu-items {
+        display: flex;
+        gap: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .menu-item {
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        transition: background-color 0.3s;
+      }
+
+      .menu-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+      }
+
+      .main-container {
+        background-color: #a2845e;
+        min-height: 100vh;
+        padding: 30px 0;
+      }
+
+      .content-wrapper {
+        background-color: #a2845e;
+        padding: 40px;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      .brand-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: 30px;
+      }
+
+      .left-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .brand-info {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .brand-title {
+        font-size: 48px;
+        font-weight: bold;
+        color: #2c1810;
+        margin: 0;
+        font-family: "Times New Roman", serif;
+      }
+
+      .chair-icon {
+        width: 80px;
+        height: 60px;
+        background-color: #2c1810;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 32px;
+        flex-shrink: 0;
+      }
+
+      .furniture-image-container {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .furniture-image {
+        width: 250px;
+        height: 300px;
+        background-color: #8b4513;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #d4a574;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .furniture-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .ndut-mebel-logo {
+        background-color: #a2845e;
+        color: #d4a574;
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 2px;
+      }
+
+      .vision-mission-section {
+        flex: 1;
+        padding-left: 20px;
+      }
+
+      .vision-box,
+      .mission-box {
+        margin-bottom: 30px;
+      }
+
+      .vision-title,
+      .mission-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2c1810;
+        margin-bottom: 15px;
+      }
+
+      .vision-text {
+        color: #2c1810;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .mission-list {
+        color: #2c1810;
+        line-height: 1.6;
+        font-size: 14px;
+        margin: 0;
+        padding-left: 0;
+      }
+
+      .mission-list li {
+        margin-bottom: 10px;
+        list-style: none;
+        position: relative;
+        padding-left: 20px;
+      }
+
+      .mission-list li::before {
+        content: counter(mission-counter) ".";
+        counter-increment: mission-counter;
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+      }
+
+      .mission-list {
+        counter-reset: mission-counter;
+      }
+
+      .contact-footer {
+        background-color: #a2845e;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        color: white;
+        gap: 10px;
+        font-size: 14px;
+      }
+
+      .contact-icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+      }
+
+      .whatsapp-icon {
+        background-color: #25d366;
+      }
+
+      .email-icon {
+        background-color: #ea4335;
+      }
+
+      .location-icon {
+        background-color: #4285f4;
+      }
+
+      .bottom-contact {
+        background-color: #000000;
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        margin-top: 30px;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        border-radius: 0;
+      }
+
+      @media (max-width: 768px) {
+        .brand-section {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .brand-info {
+          justify-content: center;
+        }
+
+        .brand-title {
+          font-size: 36px;
+        }
+
+        .furniture-image {
+          width: 200px;
+          height: 240px;
+        }
+
+        .contact-footer {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Menu -->
+    <div class="header-menu">
+      <div class="container">
+        <div class="menu-items">
+          <a href="/material/add" class="menu-item">TABEL DATA MATERIAL</a>
+          <a href="/katalog/add" class="menu-item">TAMBAH DATA KATALOG</a>
+          <a href="/kursi" class="menu-item">PRODUK KURSI</a>
+          <a href="/deskripsi" class="menu-item">DESKRIPSI</a>
+          <a href="/katalog" class="menu-item">KATALOG JENIS PRODUK</a>
+          <a href="/kursi" class="menu-item">KURSI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+      <div class="content-wrapper">
+        <!-- Brand Section -->
+        <div class="brand-section">
+          <div class="left-column">
+            <div class="brand-info">
+              <h1 class="brand-title">Ndut Mebel</h1>
+              <div class="chair-icon">
+                <i class="fas fa-chair"></i>
+              </div>
+            </div>
+
+            <div class="furniture-image-container">
+              <div class="furniture-image">
+                <img
+                  src="../assets/image/hero.png"
+                  alt="Wooden Chair"
+                  onerror="this.parentElement.innerHTML='<div style=\'color: #d4a574; font-size: 18px; text-align: center; padding: 20px;\'>Wooden Chair<br/>Furniture Image</div>'"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Vision Mission Section -->
+          <div class="vision-mission-section">
+            <div class="vision-box">
+              <div class="vision-title">Visi:</div>
+              <div class="vision-text">
+                Menjadi penyedia furniture kayu berkualitas tinggi yang nyaman,
+                fungsional, dan tahan lama untuk mendukung produktivitas
+              </div>
+            </div>
+
+            <div class="mission-box">
+              <div class="mission-title">Misi:</div>
+              <ol class="mission-list">
+                <li>
+                  Menyediakan kursi kayu jati dengan desain ergonomis dan bahan
+                  berkualitas.
+                </li>
+                <li>
+                  Menghadirkan produk yang tahan lama dan mudah dirawat untuk
+                  penggunaan jangka panjang.
+                </li>
+                <li>
+                  Mendorong penggunaan material alami yang ramah lingkungan dan
+                  berkelanjutan.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Footer -->
+        <div class="contact-footer">
+          <div class="contact-item">
+            <div class="contact-icon whatsapp-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <span>081255667890</span>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon email-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <span>ndutmebel@gmail.com</span>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon location-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <span>Purwodadi</span>
+          </div>
+        </div>
+
+        <!-- Bottom Contact -->
+        <div class="bottom-contact">
+          📧 ndutmebel@gmail.com &nbsp;&nbsp;&nbsp; 📞 087527076742
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

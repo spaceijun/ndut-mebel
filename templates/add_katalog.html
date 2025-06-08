@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Data Katalog</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(135deg, #a2845e 0%, #a2845e 100%);
+        min-height: 100vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .form-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        background: #a2845e;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+      .form-header {
+        background: #8b5a2be6;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 15px 15px 0 0;
+      }
+      .form-control,
+      .form-select {
+        background: #8b5a2be6;
+        border: 2px solid #8b5a2be6;
+        color: white;
+        padding: 12px 15px;
+      }
+      .form-control:focus,
+      .form-select:focus {
+        background: #8b5a2be6;
+        border-color: #8b5a2be6;
+        color: white;
+        box-shadow: 0 0 0 0.2rem rgba(46, 125, 50, 0.25);
+      }
+      .form-control::placeholder {
+        color: #c8e6c9;
+        opacity: 0.8;
+      }
+      .form-select option {
+        background: #8b5a2be6;
+        color: white;
+      }
+      .btn-submit {
+        background: linear-gradient(135deg, #8b5a2be6, #8b5a2be6);
+        border: none;
+        color: white;
+        padding: 15px 40px;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+      .btn-submit:hover {
+        background: linear-gradient(135deg, #8b5a2be6, #8b5a2be6);
+        transform: translateY(-2px);
+        color: white;
+      }
+      .form-label {
+        color: #8b5a2be6;
+        font-weight: 600;
+      }
+      .required::after {
+        content: " *";
+        color: #d32f2f;
+      }
+      .help-text {
+        font-size: 0.875rem;
+        color: #8b5a2be6;
+        margin-top: 5px;
+      }
+      .alert {
+        margin-bottom: 1rem;
+      }
+      .back-link {
+        color: #8b5a2be6;
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+      .back-link:hover {
+        color: #8b5a2be6;
+        text-decoration: underline;
+      }
+      .input-group-text {
+        background: #8b5a2be6 !important;
+        border: 2px solid #8b5a2be6 !important;
+        color: #c8e6c9 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="form-header">
+          <h1 class="mb-0">
+            <i class="fas fa-plus-circle me-2"></i>
+            Tambah Data Katalog
+          </h1>
+        </div>
+
+        <div class="p-4">
+          <a href="/katalog/" class="back-link">
+            <i class="fas fa-arrow-left me-1"></i>
+            Kembali ke Daftar Katalog
+          </a>
+
+          <!-- Alert untuk menampilkan pesan error/success -->
+          <div id="alertContainer"></div>
+
+          <form id="katalogForm">
+            <!-- Kode Barang -->
+            <div class="mb-3">
+              <label for="kodeBarang" class="form-label required"
+                >Kode Barang</label
+              >
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fas fa-barcode"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="kodeBarang"
+                  name="kodeBarang"
+                  placeholder="Masukan Kode Barang"
+                  required
+                  maxlength="20"
+                />
+              </div>
+              <div class="help-text">
+                Format: huruf kapital dan angka (contoh: KB001, KB002, KB003)
+              </div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- Name Product -->
+            <div class="mb-3">
+              <label for="nameProduct" class="form-label required"
+                >Nama Produk</label
+              >
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fas fa-box"></i>
+                </span>
+                <textarea
+                  class="form-control"
+                  id="nameProduct"
+                  name="nameProduct"
+                  placeholder="Masukan Nama Produk"
+                  required
+                  rows="3"
+                  maxlength="200"
+                ></textarea>
+              </div>
+              <div class="help-text">
+                Berikan nama produk yang jelas dan detail (maks. 200 karakter)
+              </div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- Stok -->
+            <div class="mb-3">
+              <label for="stok" class="form-label required">Stok</label>
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fas fa-warehouse"></i>
+                </span>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="stok"
+                  name="stok"
+                  placeholder="Masukan Jumlah Stok"
+                  required
+                  min="0"
+                  max="999999"
+                />
+              </div>
+              <div class="help-text">Jumlah stok yang tersedia saat ini</div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- UOM -->
+            <div class="mb-3">
+              <label for="uom" class="form-label required"
+                >UOM (Unit of Measure)</label
+              >
+              <select class="form-select" id="uom" name="uom" required>
+                <option value="">Pilih UOM Produk</option>
+                <option value="Pcs">Pcs - Pieces</option>
+                <option value="Log">Log - Logarithm</option>
+                <option value="Kg">Kg - Kilogram</option>
+                <option value="Ltr">Ltr - Liter</option>
+                <option value="M">M - Meter</option>
+                <option value="M2">M² - Meter Persegi</option>
+                <option value="M3">M³ - Meter Kubik</option>
+                <option value="Set">Set - Set</option>
+                <option value="Box">Box - Box</option>
+                <option value="Pack">Pack - Pack</option>
+                <option value="Roll">Roll - Roll</option>
+                <option value="Unit">Unit - Unit</option>
+                <option value="Dozen">Dozen - Lusin</option>
+                <option value="Gram">Gram - Gram</option>
+                <option value="Ton">Ton - Ton</option>
+              </select>
+              <div class="help-text">Satuan pengukuran untuk produk</div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- Status -->
+            <div class="mb-3">
+              <label for="status" class="form-label required">Status</label>
+              <select class="form-select" id="status" name="status" required>
+                <option value="">Pilih Status Produk</option>
+                <option value="Tersedia">Tersedia</option>
+                <option value="Tidak Tersedia">Tidak Tersedia</option>
+              </select>
+              <div class="help-text">Status ketersediaan produk</div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- Submit Section -->
+            <div
+              class="text-center mt-4 pt-3"
+              style="border-top: 2px solid rgba(46, 125, 50, 0.3)"
+            >
+              <button
+                type="button"
+                class="btn btn-secondary me-3"
+                onclick="resetForm()"
+              >
+                <i class="fas fa-undo me-1"></i>
+                Reset
+              </button>
+              <button type="submit" class="btn btn-submit">
+                <i class="fas fa-save me-2"></i>
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #c8e6c9; border: none">
+          <div class="modal-header" style="background: #2e7d32; color: white">
+            <h5 class="modal-title">
+              <i class="fas fa-check-circle me-2"></i>
+              Berhasil
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center" style="color: #1b5e20">
+            <i class="fas fa-check-circle text-success fa-3x mb-3"></i>
+            <h4>Data Katalog Berhasil Ditambahkan!</h4>
+            <p>
+              Produk dengan kode <strong id="savedKodeBarang"></strong> telah
+              berhasil disimpan ke katalog.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            <button
+              type="button"
+              class="btn"
+              style="background: #2e7d32; color: white"
+              onclick="window.location.reload()"
+            >
+              Tambah Lagi
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stock Alert Modal -->
+    <div class="modal fade" id="stockAlertModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #fff3cd; border: none">
+          <div class="modal-header" style="background: #856404; color: white">
+            <h5 class="modal-title">
+              <i class="fas fa-exclamation-triangle me-2"></i>
+              Peringatan Stok
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body text-center" style="color: #856404">
+            <i class="fas fa-exclamation-triangle text-warning fa-3x mb-3"></i>
+            <h5>Stok Rendah Terdeteksi!</h5>
+            <p>
+              Stok yang Anda masukkan sangat rendah. Pastikan untuk segera
+              melakukan restock.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-dismiss="modal"
+            >
+              Mengerti
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Auto-format kode barang to uppercase
+      document
+        .getElementById("kodeBarang")
+        .addEventListener("input", function () {
+          this.value = this.value.toUpperCase().replace(/[^A-Z0-9]/g, "");
+        });
+
+      // Character counter for name product
+      const nameField = document.getElementById("nameProduct");
+      const helpText = nameField.parentElement.nextElementSibling;
+
+      nameField.addEventListener("input", function () {
+        const remaining = 200 - this.value.length;
+        helpText.textContent = `Berikan nama produk yang jelas dan detail (${remaining} karakter tersisa)`;
+        helpText.style.color = remaining < 20 ? "#d32f2f" : "#2e7d32";
+      });
+
+      // Stock validation
+      document.getElementById("stok").addEventListener("input", function () {
+        const stockValue = parseInt(this.value);
+        if (stockValue >= 0 && stockValue <= 10) {
+          // Show warning for low stock
+          const helpText = this.parentElement.nextElementSibling;
+          helpText.textContent = "⚠️ Stok rendah! Pertimbangkan untuk restock.";
+          helpText.style.color = "#ff9800";
+        } else {
+          const helpText = this.parentElement.nextElementSibling;
+          helpText.textContent = "Jumlah stok yang tersedia saat ini";
+          helpText.style.color = "#2e7d32";
+        }
+      });
+
+      // Auto-update status based on stock
+      document.getElementById("stok").addEventListener("blur", function () {
+        const stockValue = parseInt(this.value);
+        const statusSelect = document.getElementById("status");
+
+        if (stockValue === 0) {
+          statusSelect.value = "Out of Stock";
+        } else if (stockValue > 0 && stockValue <= 10) {
+          statusSelect.value = "Limited";
+        } else if (stockValue > 10 && statusSelect.value === "") {
+          statusSelect.value = "Active";
+        }
+      });
+
+      // Form submission
+      document
+        .getElementById("katalogForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const submitBtn = document.querySelector(".btn-submit");
+          const originalText = submitBtn.innerHTML;
+
+          // Show loading state
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin me-2"></i>Menyimpan...';
+          submitBtn.disabled = true;
+
+          // Clear previous errors
+          clearErrors();
+
+          // Submit form data
+          const formData = new FormData(this);
+          const stockValue = parseInt(formData.get("stok"));
+
+          // Show stock alert for very low stock
+          if (stockValue > 0 && stockValue <= 5) {
+            const stockAlert = new bootstrap.Modal(
+              document.getElementById("stockAlertModal")
+            );
+            stockAlert.show();
+          }
+
+          fetch("/katalog/submit", {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => {
+              return response.json().then((data) => ({
+                status: response.status,
+                data: data,
+              }));
+            })
+            .then((result) => {
+              if (result.data.success) {
+                // Show success modal
+                document.getElementById("savedKodeBarang").textContent =
+                  result.data.kode_barang;
+                const modal = new bootstrap.Modal(
+                  document.getElementById("successModal")
+                );
+                modal.show();
+              } else {
+                if (result.data.errors) {
+                  // Show field-specific errors
+                  showFieldErrors(result.data.errors);
+                } else {
+                  // Show general error
+                  showAlert(
+                    "danger",
+                    result.data.message || "Terjadi kesalahan"
+                  );
+                }
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              showAlert("danger", "Terjadi kesalahan pada server");
+            })
+            .finally(() => {
+              // Reset button
+              submitBtn.innerHTML = originalText;
+              submitBtn.disabled = false;
+            });
+        });
+
+      function showAlert(type, message) {
+        const alertContainer = document.getElementById("alertContainer");
+        const alert = document.createElement("div");
+        alert.className = `alert alert-${type} alert-dismissible fade show`;
+        alert.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+        alertContainer.innerHTML = "";
+        alertContainer.appendChild(alert);
+      }
+
+      function showFieldErrors(errors) {
+        for (const [field, message] of Object.entries(errors)) {
+          const element = document.querySelector(
+            `[name="${field}"], [name="${field}Barang"]`
+          );
+          if (element) {
+            element.classList.add("is-invalid");
+            const feedback =
+              element.parentElement.querySelector(".invalid-feedback") ||
+              element.nextElementSibling.nextElementSibling;
+            if (feedback) {
+              feedback.textContent = message;
+              feedback.style.display = "block";
+            }
+          }
+        }
+      }
+
+      function clearErrors() {
+        document.querySelectorAll(".is-invalid").forEach((el) => {
+          el.classList.remove("is-invalid");
+        });
+        document.querySelectorAll(".invalid-feedback").forEach((el) => {
+          el.style.display = "none";
+        });
+        document.getElementById("alertContainer").innerHTML = "";
+      }
+
+      function resetForm() {
+        document.getElementById("katalogForm").reset();
+        clearErrors();
+        // Reset help text
+        const helpText =
+          document.getElementById("nameProduct").parentElement
+            .nextElementSibling;
+        helpText.textContent =
+          "Berikan nama produk yang jelas dan detail (maks. 200 karakter)";
+        helpText.style.color = "#2e7d32";
+      }
+
+      // Initialize tooltips if needed
+      document.addEventListener("DOMContentLoaded", function () {
+        // Any initialization code can go here
+      });
+    </script>
+  </body>
+</html>

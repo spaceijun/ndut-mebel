@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Produk</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(
+          to bottom,
+          #2c1810 0%,
+          #2c1810 12%,
+          #d2b48c 12%,
+          #d2b48c 88%,
+          #2c1810 88%,
+          #2c1810 100%
+        );
+        min-height: 100vh;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .main-container {
+        background-color: #d2b48c;
+        min-height: 100vh;
+        padding: 60px 40px 100px 40px;
+        position: relative;
+      }
+
+      .page-title {
+        color: #2c1810;
+        font-weight: bold;
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: Arial, sans-serif;
+      }
+
+      .product-section {
+        margin-bottom: 35px;
+      }
+
+      .product-title {
+        color: #2c1810;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+      }
+
+      .product-description {
+        color: #2c1810;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 8px;
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+      }
+
+      .advantages-title {
+        color: #2c1810;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        font-family: Arial, sans-serif;
+      }
+
+      .advantages-list {
+        list-style: none;
+        padding-left: 20px;
+        margin-bottom: 0;
+      }
+
+      .advantages-list li {
+        color: #2c1810;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 4px;
+        position: relative;
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+      }
+
+      .advantages-list li:before {
+        content: "•";
+        color: #2c1810;
+        position: absolute;
+        left: -15px;
+        font-size: 1rem;
+      }
+
+      .next-page-btn {
+        position: absolute;
+        bottom: 25px;
+        right: 40px;
+        background: transparent;
+        color: #2c1810;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+      }
+
+      .next-page-btn:hover {
+        text-decoration: underline;
+      }
+
+      /* Exact positioning to match the original */
+      .left-column {
+        padding-right: 30px;
+      }
+
+      .right-column {
+        padding-left: 30px;
+        padding-top: 140px; /* To align with the middle of left content */
+      }
+
+      .product-2 {
+        margin-left: 80px; /* Indented positioning like in original */
+      }
+
+      @media (max-width: 768px) {
+        .main-container {
+          padding: 40px 20px 80px 20px;
+        }
+
+        .page-title {
+          font-size: 1.8rem;
+          margin-bottom: 40px;
+        }
+
+        .left-column,
+        .right-column {
+          padding: 0;
+        }
+
+        .product-2 {
+          margin-left: 0;
+        }
+
+        .right-column {
+          padding-top: 0;
+          margin-top: 30px;
+        }
+
+        .next-page-btn {
+          bottom: 20px;
+          right: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-fluid">
+        <h1 class="page-title">Deskripsi Produk</h1>
+
+        <div class="row">
+          <div class="col-lg-6 left-column">
+            <div class="product-section">
+              <div class="product-title">1. Kursi Santai Jati Klasik</div>
+              <div class="product-description">
+                <strong>Deskripsi:</strong> Kursi dengan sandaran dan dudukan
+                tinggi, rangka kayu jati kokoh, bergaya tradisional.
+              </div>
+              <div class="advantages-title">Kelebihan:</div>
+              <ul class="advantages-list">
+                <li>Sangat nyaman untuk duduk lama (ideal untuk bersantai).</li>
+                <li>Rangka jati tahan lama & kuat.</li>
+                <li>Desain klasik memberi kesan hangat & elegan.</li>
+              </ul>
+            </div>
+
+            <div class="product-section product-2">
+              <div class="product-title">2. Kursi Scandinavian Minimalis</div>
+              <div class="product-description">
+                <strong>Deskripsi:</strong> Kursi dengan desain ramping dan
+                simpel, berwarna netral, mengusung gaya Eropa Utara.
+              </div>
+              <div class="advantages-title">Kelebihan:</div>
+              <ul class="advantages-list">
+                <li>Cocok untuk ruangan kecil (tidak makan tempat).</li>
+                <li>Desain elegan dan kekinian.</li>
+                <li>Mudah dipadukan dengan interior modern.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 right-column">
+            <div class="product-section">
+              <div class="product-title">3. Kursi Retro Cafe</div>
+              <div class="product-description">
+                <strong>Deskripsi:</strong> Kursi ringan bergaya retro, biasanya
+                digunakan untuk ruang makan atau cafe.
+              </div>
+              <div class="advantages-title">Kelebihan:</div>
+              <ul class="advantages-list">
+                <li>Ringan dan mudah dipindah-pindahkan.</li>
+                <li>Tampilan unik dan estetik retro.</li>
+                <li>Mudah dibersihkan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-page-btn">
+        <a href="/deskripsi2" class="next-page-btn">Next Page</a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

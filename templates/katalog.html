@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Katalog</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #a2845e;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container-fluid {
+        background-color: #a2845e;
+        min-height: 100vh;
+      }
+
+      .header-section {
+        background-color: #a2845e;
+        color: #333;
+        padding: 15px 0;
+        margin-bottom: 30px;
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: center;
+        margin: 0;
+      }
+
+      .controls-section {
+        margin-bottom: 20px;
+      }
+
+      .entries-dropdown {
+        background-color: #a2845e;
+        border: 1px solid #a2845e;
+        border-radius: 4px;
+        padding: 8px 12px;
+        width: 80px;
+        color: #333;
+      }
+
+      .add-stock-btn {
+        background-color: #6c757d;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .add-stock-btn:hover {
+        background-color: #5a6268;
+        color: white;
+        text-decoration: none;
+      }
+
+      .search-input {
+        background-color: #a8a8a8;
+        border: 1px solid #8d8d8d;
+        border-radius: 4px;
+        padding: 8px 12px;
+        color: #333;
+        width: 200px;
+      }
+
+      .search-input::placeholder {
+        color: #666;
+      }
+
+      .table-container {
+        background-color: #c8a882;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .custom-table {
+        margin: 0;
+        border-collapse: separate;
+        border-spacing: 0;
+      }
+
+      .custom-table thead th {
+        background-color: #c8a882;
+        border-bottom: 2px solid #a08968;
+        padding: 12px;
+        font-weight: 600;
+        text-align: center;
+        color: #333;
+      }
+
+      .custom-table tbody td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #a08968;
+        vertical-align: middle;
+        background-color: #c8a882;
+        color: #333;
+      }
+
+      .custom-table tbody tr:hover {
+        background-color: #b89973;
+      }
+
+      .custom-table tbody tr:hover td {
+        background-color: #b89973;
+      }
+
+      .status-tersedia {
+        color: #28a745;
+        font-weight: 500;
+      }
+      .status-tidak-tersedia {
+        color: #dc3545;
+        font-weight: 500;
+      }
+      .status-kosong {
+        color: #6c757d;
+        font-weight: 500;
+      }
+
+      .pagination-section {
+        margin-top: 20px;
+      }
+
+      .pagination-info {
+        color: #333;
+        font-size: 14px;
+      }
+
+      .pagination .page-item.active .page-link {
+        background-color: #8b4513;
+        border-color: #8b4513;
+      }
+
+      .pagination .page-link {
+        color: #333;
+        background-color: #c8a882;
+        border-color: #a08968;
+      }
+
+      .pagination .page-item.disabled .page-link {
+        background-color: #c8a882;
+        border-color: #a08968;
+        color: #666;
+      }
+
+      .action-btn {
+        background: none;
+        border: none;
+        color: #007bff;
+        text-decoration: underline;
+        cursor: pointer;
+        margin: 0 2px;
+      }
+
+      .action-btn:hover {
+        color: #0056b3;
+      }
+
+      .no-data {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+        font-style: italic;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+      }
+
+      .alert {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header-section">
+        <h1 class="title">Katalog Jenis Kursi</h1>
+      </div>
+
+      <div class="container">
+        <!-- Alert untuk notifikasi -->
+        <div id="alertContainer"></div>
+
+        <div class="row controls-section align-items-center">
+          <div class="col-md-2">
+            <div class="d-flex align-items-center">
+              <select class="entries-dropdown me-2" id="entriesPerPage">
+                <option value="10" selected>10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+              </select>
+              <span>Entries</span>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <a href="/katalog/add" class="add-stock-btn">
+              <i class="fas fa-plus me-2"></i>Add Katalog
+            </a>
+          </div>
+
+          <div class="col-md-7">
+            <div class="d-flex justify-content-end">
+              <div class="position-relative">
+                <i
+                  class="fas fa-search position-absolute"
+                  style="
+                    left: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: #666;
+                  "
+                ></i>
+                <input
+                  type="text"
+                  class="search-input ps-4"
+                  placeholder="Search"
+                  id="searchInput"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-container">
+          <table class="table custom-table">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Stok</th>
+                <th scope="col">Kode Barang</th>
+                <th scope="col">Nama Produk</th>
+                <th scope="col">UOM</th>
+                <th scope="col">Status</th>
+                <!-- <th scope="col">Tanggal</th>
+                <th scope="col">Aksi</th> -->
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr class="loading">
+                <td colspan="7">
+                  <i class="fas fa-spinner fa-spin me-2"></i>Loading data...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row pagination-section align-items-center">
+          <div class="col-md-4">
+            <div class="pagination-info" id="paginationInfo">
+              Showing 0 to 0 of 0 entries
+            </div>
+          </div>
+          <div class="col-md-8">
+            <nav>
+              <ul
+                class="pagination justify-content-center mb-0"
+                id="pagination"
+              >
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal untuk detail katalog -->
+    <div class="modal fade" id="katalogModal" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Detail Katalog</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body" id="modalContent">
+            <!-- Konten modal akan diisi melalui JavaScript -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let allKatalogs = [];
+      let filteredKatalogs = [];
+      let currentPage = 1;
+      let entriesPerPage = 10;
+
+      // Load data saat halaman dimuat
+      document.addEventListener("DOMContentLoaded", function () {
+        loadKatalogs();
+
+        // Check for success message from URL params
+        const urlParams = new URLSearchParams(window.location.search);
+        const success = urlParams.get("success");
+        const message = urlParams.get("message");
+
+        if (success === "true" && message) {
+          showAlert("success", decodeURIComponent(message));
+          // Clean URL
+          window.history.replaceState(
+            {},
+            document.title,
+            window.location.pathname
+          );
+        }
+      });
+
+      // Function untuk load data katalog
+      async function loadKatalogs() {
+        try {
+          const response = await fetch("/api/katalogs");
+          const result = await response.json();
+
+          if (result.success) {
+            allKatalogs = result.data;
+            filteredKatalogs = [...allKatalogs];
+            displayKatalogs();
+            updatePagination();
+          } else {
+            showAlert("danger", "Gagal memuat data: " + result.message);
+          }
+        } catch (error) {
+          console.error("Error loading katalogs:", error);
+          showAlert("danger", "Terjadi kesalahan saat memuat data");
+          document.getElementById("tableBody").innerHTML = `
+            <tr class="no-data">
+              <td colspan="7">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                Gagal memuat data. Silakan refresh halaman.
+              </td>
+            </tr>
+          `;
+        }
+      }
+
+      // Function untuk menampilkan data di tabel
+      function displayKatalogs() {
+        const tableBody = document.getElementById("tableBody");
+        const startIndex = (currentPage - 1) * entriesPerPage;
+        const endIndex = startIndex + entriesPerPage;
+        const katalogsToShow = filteredKatalogs.slice(startIndex, endIndex);
+
+        if (katalogsToShow.length === 0) {
+          tableBody.innerHTML = `
+            <tr class="no-data">
+              <td colspan="7">
+                <i class="fas fa-inbox me-2"></i>
+                ${
+                  filteredKatalogs.length === 0
+                    ? "Tidak ada data katalog"
+                    : "Tidak ada data untuk halaman ini"
+                }
+              </td>
+            </tr>
+          `;
+          return;
+        }
+
+        tableBody.innerHTML = katalogsToShow
+          .map((katalog, index) => {
+            const globalIndex = startIndex + index + 1;
+            const statusClass = `status-${katalog.status
+              .toLowerCase()
+              .replace(/\s+/g, "-")}`;
+            const createdAt = katalog.created_at
+              ? new Date(katalog.created_at).toLocaleDateString("id-ID")
+              : "-";
+
+            return `
+            <tr>
+              <td>${globalIndex}</td>
+              <td>${katalog.stok}</td>
+              <td><strong>${katalog.kode_barang}</strong></td>
+              <td>${katalog.name_product}</td>
+              <td>${katalog.uom}</td>
+              <td><span class="${statusClass}">${katalog.status}</span></td>
+            </tr>
+          `;
+          })
+          .join("");
+      }
+
+      // Function untuk update pagination
+      function updatePagination() {
+        const totalPages = Math.ceil(filteredKatalogs.length / entriesPerPage);
+        const startEntry =
+          filteredKatalogs.length === 0
+            ? 0
+            : (currentPage - 1) * entriesPerPage + 1;
+        const endEntry = Math.min(
+          currentPage * entriesPerPage,
+          filteredKatalogs.length
+        );
+
+        // Update pagination info
+        document.getElementById(
+          "paginationInfo"
+        ).textContent = `Showing ${startEntry} to ${endEntry} of ${filteredKatalogs.length} entries`;
+
+        // Update pagination buttons
+        const pagination = document.getElementById("pagination");
+        let paginationHTML = "";
+
+        // Previous button
+        paginationHTML += `
+          <li class="page-item ${currentPage === 1 ? "disabled" : ""}">
+            <a class="page-link" href="#" onclick="changePage(${
+              currentPage - 1
+            }); return false;" tabindex="-1">Previous</a>
+          </li>
+        `;
+
+        // Page numbers
+        const maxVisiblePages = 5;
+        let startPage = Math.max(
+          1,
+          currentPage - Math.floor(maxVisiblePages / 2)
+        );
+        let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+        if (endPage - startPage + 1 < maxVisiblePages) {
+          startPage = Math.max(1, endPage - maxVisiblePages + 1);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          paginationHTML += `
+            <li class="page-item ${i === currentPage ? "active" : ""}">
+              <a class="page-link" href="#" onclick="changePage(${i}); return false;">${i}</a>
+            </li>
+          `;
+        }
+
+        // Next button
+        paginationHTML += `
+          <li class="page-item ${
+            currentPage === totalPages || totalPages === 0 ? "disabled" : ""
+          }">
+            <a class="page-link" href="#" onclick="changePage(${
+              currentPage + 1
+            }); return false;">Next</a>
+          </li>
+        `;
+
+        pagination.innerHTML = paginationHTML;
+      }
+
+      // Function untuk ganti halaman
+      function changePage(page) {
+        const totalPages = Math.ceil(filteredKatalogs.length / entriesPerPage);
+        if (page >= 1 && page <= totalPages) {
+          currentPage = page;
+          displayKatalogs();
+          updatePagination();
+        }
+      }
+
+      // Search functionality
+      document
+        .getElementById("searchInput")
+        .addEventListener("input", function () {
+          const searchTerm = this.value.toLowerCase().trim();
+
+          if (searchTerm === "") {
+            filteredKatalogs = [...allKatalogs];
+          } else {
+            filteredKatalogs = allKatalogs.filter(
+              (katalog) =>
+                katalog.kode_barang.toLowerCase().includes(searchTerm) ||
+                katalog.name_product.toLowerCase().includes(searchTerm) ||
+                katalog.status.toLowerCase().includes(searchTerm) ||
+                katalog.uom.toLowerCase().includes(searchTerm) ||
+                katalog.stok.toString().includes(searchTerm)
+            );
+          }
+
+          currentPage = 1;
+          displayKatalogs();
+          updatePagination();
+        });
+
+      // Entries per page functionality
+      document
+        .getElementById("entriesPerPage")
+        .addEventListener("change", function () {
+          entriesPerPage = parseInt(this.value);
+          currentPage = 1;
+          displayKatalogs();
+          updatePagination();
+        });
+
+      // Function untuk edit katalog
+      function editKatalog(id) {
+        // Implementasi edit - redirect ke halaman edit
+        window.location.href = `/katalog/edit/${id}`;
+      }
+
+      // Function untuk view katalog detail
+      async function viewKatalog(id) {
+        try {
+          const response = await fetch(`/api/katalog/${id}`);
+          const result = await response.json();
+
+          if (result.success) {
+            const katalog = result.data;
+            const modalContent = document.getElementById("modalContent");
+            modalContent.innerHTML = `
+              <table class="table table-borderless">
+                <tr><th width="30%">ID:</th><td>${katalog.id}</td></tr>
+                <tr><th>Kode Barang:</th><td><strong>${
+                  katalog.kode_barang
+                }</strong></td></tr>
+                <tr><th>Nama Produk:</th><td>${katalog.name_product}</td></tr>
+                <tr><th>Stok:</th><td>${katalog.stok}</td></tr>
+                <tr><th>UOM:</th><td>${katalog.uom}</td></tr>
+                <tr><th>Status:</th><td><span class="status-${katalog.status
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}">${katalog.status}</span></td></tr>
+                <tr><th>Created:</th><td>${new Date(
+                  katalog.created_at
+                ).toLocaleString("id-ID")}</td></tr>
+                <tr><th>Updated:</th><td>${new Date(
+                  katalog.updated_at
+                ).toLocaleString("id-ID")}</td></tr>
+              </table>
+            `;
+
+            // Show modal
+            const modal = new bootstrap.Modal(
+              document.getElementById("katalogModal")
+            );
+            modal.show();
+          } else {
+            showAlert("danger", "Gagal memuat detail katalog");
+          }
+        } catch (error) {
+          console.error("Error loading katalog detail:", error);
+          showAlert("danger", "Terjadi kesalahan saat memuat detail");
+        }
+      }
+
+      // Function untuk menampilkan alert
+      function showAlert(type, message) {
+        const alertContainer = document.getElementById("alertContainer");
+        const alertHTML = `
+          <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+        `;
+        alertContainer.innerHTML = alertHTML;
+
+        // Auto dismiss after 5 seconds
+        setTimeout(() => {
+          const alert = alertContainer.querySelector(".alert");
+          if (alert) {
+            const bsAlert = new bootstrap.Alert(alert);
+            bsAlert.close();
+          }
+        }, 5000);
+      }
+
+      // Auto refresh data setiap 30 detik
+      setInterval(loadKatalogs, 30000);
+    </script>
+  </body>
+</html>
