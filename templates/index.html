@@ -45,12 +45,94 @@
         text-decoration: none;
         padding: 5px 10px;
         border-radius: 3px;
-        transition: background-color 0.3s;
+        transition: all 0.3s ease;
+        position: relative;
+        cursor: pointer;
       }
 
       .menu-item:hover {
         background-color: rgba(255, 255, 255, 0.2);
         color: white;
+      }
+
+      /* Styling untuk menu protected */
+      .menu-item.protected {
+        background-color: rgba(40, 167, 69, 0.1);
+        border: 1px solid rgba(40, 167, 69, 0.3);
+      }
+
+      .menu-item.protected:hover {
+        background-color: rgba(40, 167, 69, 0.2);
+        color: white;
+      }
+
+      /* Icon untuk menu protected */
+      .menu-item.protected::before {
+        content: "🔒 ";
+        font-size: 10px;
+        margin-right: 3px;
+      }
+
+      /* Login status indicator */
+      .login-status {
+        font-size: 11px;
+        color: white;
+        font-weight: normal;
+      }
+
+      .login-status.logged-in {
+        color: #90ee90;
+      }
+
+      .login-status.not-logged-in {
+        color: #ffb6c1;
+      }
+
+      /* Notification popup */
+      .notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        background-color: #ffc107;
+        color: #856404;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+        display: none;
+        font-weight: bold;
+        font-size: 14px;
+        max-width: 300px;
+        animation: slideIn 0.3s ease-out;
+      }
+
+      @keyframes slideIn {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      .notification.success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+      }
+
+      .notification.warning {
+        background-color: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeaa7;
+      }
+
+      .notification.error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
       }
 
       .main-container {
@@ -274,6 +356,16 @@
         .contact-footer {
           flex-direction: column;
         }
+
+        .menu-items {
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .menu-item {
+          font-size: 10px;
+          padding: 3px 6px;
+        }
       }
     </style>
   </head>
@@ -282,15 +374,44 @@
     <div class="header-menu">
       <div class="container">
         <div class="menu-items">
-          <a href="/material/add" class="menu-item">TABEL DATA MATERIAL</a>
-          <a href="/katalog/add" class="menu-item">TAMBAH DATA KATALOG</a>
-          <a href="/kursi" class="menu-item">PRODUK KURSI</a>
-          <a href="/deskripsi" class="menu-item">DESKRIPSI</a>
-          <a href="/katalog" class="menu-item">KATALOG JENIS PRODUK</a>
-          <a href="/kursi" class="menu-item">KURSI</a>
+          <!-- SEMUA MENU DITAMPILKAN - JavaScript akan handle authentication -->
+
+          <!-- Protected Routes (Memerlukan Login) -->
+          <a
+            href="/material/add"
+            class="menu-item protected"
+            data-protected="true"
+          >
+            TABEL DATA MATERIAL
+          </a>
+          <a
+            href="/katalog/add"
+            class="menu-item protected"
+            data-protected="true"
+          >
+            TAMBAH DATA KATALOG
+          </a>
+          <a href="/katalog" class="menu-item protected" data-protected="true">
+            KATALOG JENIS PRODUK
+          </a>
+
+          <!-- Public Routes (Dapat diakses tanpa login) -->
+          <a href="/kursi" class="menu-item" data-protected="false">
+            PRODUK KURSI
+          </a>
+          <a href="/deskripsi" class="menu-item" data-protected="false">
+            DESKRIPSI
+          </a>
+          <a href="/deskripsi2" class="menu-item" data-protected="false">
+            DESKRIPSI 2
+          </a>
+          <a href="/" class="menu-item" data-protected="false"> HOME </a>
         </div>
       </div>
     </div>
+
+    <!-- Notification Popup -->
+    <div id="notification" class="notification"></div>
 
     <!-- Main Container -->
     <div class="main-container">
@@ -376,6 +497,158 @@
         </div>
       </div>
     </div>
+
+    <!-- JavaScript untuk Menu Authentication -->
+    <script>
+      // Status login dari Flask context
+      const isLoggedIn = {{ 'true' if is_logged_in else 'false' }};
+      const loginUrl = '/login'; // Sesuaikan dengan route login Anda
+      const currentUser = '{{ username if is_logged_in else "" }}';
+
+      // Protected routes yang memerlukan login
+      const protectedRoutes = ['/material/add', '/katalog/add', '/katalog', '/materials'];
+
+      console.log(' Menu Authentication System Initialized');
+      console.log(' Login Status:', isLoggedIn);
+      console.log(' Current User:', currentUser || 'Not logged in');
+      console.log(' Protected Routes:', protectedRoutes);
+
+      // Function untuk menampilkan notifikasi
+      function showNotification(message, type = 'warning') {
+        const notification = document.getElementById('notification');
+
+        // Set content dan style
+        notification.textContent = message;
+        notification.className = `notification ${type}`;
+        notification.style.display = 'block';
+
+        // Auto hide setelah 4 detik
+        setTimeout(() => {
+          notification.style.display = 'none';
+        }, 4000);
+
+        console.log(`🔔 Notification: ${message} (${type})`);
+      }
+
+      // Function untuk handle redirect ke login
+      function redirectToLogin(reason = 'Authentication required') {
+        console.log(`🔄 Redirecting to login: ${reason}`);
+
+        showNotification('Mengalihkan ke halaman login...', 'warning');
+
+        setTimeout(() => {
+          window.location.href = loginUrl;
+        }, 2000);
+      }
+
+      // Function untuk handle menu click
+      function handleMenuClick(event) {
+        const link = event.target.closest('.menu-item');
+        if (!link) return;
+
+        const isProtected = link.getAttribute('data-protected') === 'true';
+        const href = link.getAttribute('href');
+        const menuText = link.textContent.trim();
+
+        console.log(` Menu clicked: ${menuText}`);
+        console.log(` Is Protected: ${isProtected}`);
+        console.log(` Target URL: ${href}`);
+
+        // Jika menu protected dan user belum login
+        if (isProtected && !isLoggedIn) {
+          event.preventDefault(); // Mencegah navigasi default
+
+          console.log('❌ Access denied: User not logged in');
+
+          // Tampilkan notifikasi dengan nama menu
+          const cleanMenuName = menuText.replace('🔒 ', '');
+          showNotification(`Login diperlukan untuk mengakses "${cleanMenuName}"`, 'warning');
+
+          // Redirect ke login setelah delay
+          redirectToLogin(`Access to ${cleanMenuName}`);
+
+          return false;
+        }
+
+        // Jika menu public atau user sudah login
+        if (!isProtected || isLoggedIn) {
+          console.log('✅ Access granted');
+
+          if (isLoggedIn && isProtected) {
+            showNotification(`Mengakses ${menuText.replace('🔒 ', '')}...`, 'success');
+          }
+
+          // Biarkan navigasi normal terjadi
+          return true;
+        }
+      }
+
+      // Function untuk check auth status via API (optional)
+      async function checkAuthStatus() {
+        try {
+          const response = await fetch('/api/auth/status');
+          const data = await response.json();
+
+          console.log('🔍 Auth Status Check:', data);
+
+          // Update status jika berbeda
+          if (data.is_logged_in !== isLoggedIn) {
+            console.log('🔄 Auth status changed, reloading page...');
+            location.reload();
+          }
+
+          return data.is_logged_in;
+        } catch (error) {
+          console.error('❌ Error checking auth status:', error);
+          return isLoggedIn; // fallback ke status awal
+        }
+      }
+
+      // Initialize saat DOM loaded
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('🚀 DOM loaded, initializing menu system...');
+
+        // Attach event listener ke semua menu items
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        menuItems.forEach((item, index) => {
+          item.addEventListener('click', handleMenuClick);
+
+          const isProtected = item.getAttribute('data-protected') === 'true';
+          const menuText = item.textContent.trim();
+
+          console.log(` Menu ${index + 1}: ${menuText} ${isProtected ? '(Protected)' : '(Public)'}`);
+        });
+
+        console.log(` Menu system initialized with ${menuItems.length} items`);
+
+        // Show welcome message untuk logged in users
+        if (isLoggedIn && currentUser) {
+          setTimeout(() => {
+            showNotification(`Selamat datang, ${currentUser}!`, 'success');
+          }, 500);
+        }
+
+        // Periodic auth check (optional - setiap 5 menit)
+        setInterval(checkAuthStatus, 300000);
+      });
+
+      // Handle page visibility change untuk refresh auth status
+      document.addEventListener('visibilitychange', function() {
+        if (!document.hidden) {
+          checkAuthStatus();
+        }
+      });
+
+      // Expose functions ke global scope untuk debugging
+      window.ndutMenuSystem = {
+        checkAuth: checkAuthStatus,
+        showNotification: showNotification,
+        isLoggedIn: isLoggedIn,
+        currentUser: currentUser,
+        protectedRoutes: protectedRoutes
+      };
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>

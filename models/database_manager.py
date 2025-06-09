@@ -15,6 +15,43 @@ class DatabaseManager:
             return None
     
     @staticmethod
+    def create_users_table():
+        """Create users table if not exists"""
+        try:
+            connection = DatabaseManager.get_connection()
+            if not connection:
+                print("Failed to connect to database")
+                return False
+                
+            cursor = connection.cursor()
+            
+            create_table_query = """
+            CREATE TABLE IF NOT EXISTS `users` (
+              `id` int NOT NULL AUTO_INCREMENT,
+              `name` varchar(100) NOT NULL,
+              `email` varchar(100) NOT NULL,
+              `password` varchar(255) NOT NULL,
+              `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+              PRIMARY KEY (`id`),
+              UNIQUE KEY `unique_email` (`email`),
+              KEY `idx_email` (`email`),
+              KEY `idx_created_at` (`created_at`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+            """
+            
+            cursor.execute(create_table_query)
+            connection.commit()
+            cursor.close()
+            connection.close()
+            
+            print("Users table created successfully")
+            return True
+            
+        except Exception as e:
+            print(f"Error creating users table: {e}")
+            return False
+    
+    @staticmethod
     def check_part_code_exists(part_code):
         """Cek apakah part code sudah ada"""
         connection = DatabaseManager.get_connection()
